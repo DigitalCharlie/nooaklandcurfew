@@ -13,13 +13,15 @@ a.button {
     background: #9085a1;
     text-align: center;
     width: 100%;
-    height: 40px;
-    line-height: 40px;
-    font-size: 12px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
     color:#ffffff;
+    cursor:pointer;
+    margin-top:10px;
 }
 
 a.button:hover {
@@ -38,8 +40,12 @@ a.button.twitter {
     background: #37c5d6;
 }
 
-a.button.submit {
-    background: #2E0854;
+a.button.action {
+    background: #14ac2b;
+}
+
+h1 {
+    font-size:3em;
 }
 
 h3 {
@@ -47,12 +53,26 @@ h3 {
     font-weight:normal;
 }
 
+p {
+    padding:5px;
+}
+
+li {
+    text-align:left;
+}
+
 
 @media screen and (min-width: 500px) {
 
+    body {
+        max-width:80%;
+        width:800px;
+        margin:0 auto;
+    }
+
     a.button {
-        width: 190px;
-        margin: 0px 5px;
+        width: 450px;
+        margin: 5px 5px;
         border-radius: 5px;
     }
 
@@ -60,3 +80,8 @@ h3 {
         font-size:1.17em;
         font-weight:bold;
     }
+
+    ul {
+    margin-left:100px;
+    margin-right:100px;
+}

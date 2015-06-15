@@ -26,6 +26,82 @@
 </head>
 <body>
 
+    <h1>
+        End the Oakland Protest Curfew
+    </h1>
+    
+    <p>
+        Mayor Libby Schaaf has started enforcing an old Oakland law that bans people from gathering in the streeet without a permit after dark. But free speech doesn't follow regular hours — take the 2 simple steps below to speak out. The goal of this site is to raise a little bit of hell and overwhelm the office with emails to the point that they throw out this outdated rule.
+    </p>
+
+    <div class="Action">
+        
+        <p>
+            1. Email everyone who works in Mayor Libby Schaaf's office. Click the link below to send the email — there's sample text in the email, but you're encouraged to change the text to whatever you want. There are a few dozen different emails this button sends, so even if you don't change anything, your email won't be the same as everyone else's.
+        </p>
+
+            <a id="emailthemall" class="button action" target="_blank" href="#">Email the Mayor</a>
+
+    <div class="Action">
+        
+        <p>
+            2. Share this with your networks on Facebook and Twitter to spread the word both about what's happening, and to give people an easy way to let the Mayor know that this curfew is bullshit. 
+        </p>
+
+        <a class="button facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://www.nooaklandcurfew.com/">Share on Facebook</a>
+
+        <a class="button twitter" target="_blank" href="http://www.twitter.com/intent/tweet?text=">Share on Twitter</a>
+
+        </div>
+
+    <p>
+        If you need more information about the curfew, check out these articles:
+    </p>
+
+    <ul>
+
+        <li>
+            Article 1
+        </li>
+
+        <li>
+            Article 2
+        </li>
+
+        <li>
+            Article 3
+        </li>
+
+    </ul>
+
+<script>
+
+    function emailthemall() {
+    document.getElementById('emailthemall').href = emails+subject[whichsubject]+body[whichbody];
+    }
+
+        var emails="mailto:acortes@oakland.net;mhunt@oakland.net;alujan@oakland.net;pmoore@oakland.net;tmoss@oakland.net;snosakhare@oakland.net;kordaz@oakland.net;lschaaf@oakland.net;msze@oakland.net;ederryck@oakland.net;officeofthemayor@oaklandnet.com?"
+
+        var subject=new Array();
+        subject[0] = "subject=subject0";
+        subject[1] = "subject=subject1";
+        subject[2] = "subject=subject2";
+        subject[3] = "subject=subject3";
+
+        var f = subject.length;
+        var whichsubject=Math.round(Math.random()*(f-1));
+
+        var body=new Array();
+        body[0] = "&body=WINNING0";
+        body[1] = "&body=WINNING1";
+        body[2] = "&body=WINNING2";
+        body[3] = "&body=WINNING3";
+
+        var f = body.length;
+        var whichbody=Math.round(Math.random()*(f-1));
+
+    emailthemall();
+</script>
 
 
 </body>
