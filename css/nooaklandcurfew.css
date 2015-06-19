@@ -1,11 +1,11 @@
 body {
     font-family:"helvetica";
-    background-color:#fff;
     margin:0px;
-    color:#0e293a;
     /*color:#008cba;*/
     text-align:center;
     overflow-x: hidden;
+    background-color:#e0e0e0;
+    color:#000000;
 }
 
 a.button {
@@ -69,6 +69,11 @@ li {
         max-width:80%;
         width:800px;
         margin:0 auto;
+        background: url(../images/standoff2.jpg);
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        color:#e0e0e0;
     }
 
     a.button {
